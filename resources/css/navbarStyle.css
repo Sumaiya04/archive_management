@@ -1,0 +1,17 @@
+.navstyle {
+    background-color: #00666a;
+    border-color: transparent;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.15);
+    font-size: 16px;
+}
+.container{
+    padding-top: 13vh;
+    min-height: 93vh;
+}
+.container-fluid{
+    padding: 1vh;
+}
+.myNav{
+    margin-bottom: 0vh !important;
+    /*position: fixed !important;*/
+}

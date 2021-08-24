@@ -1,0 +1,159 @@
+.myImg{
+    height: 4vh;
+    width: 4vh;
+}
+.myHeading{
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: large;
+    background-color: rgba(0,102,106,0.66) !important;
+    color: white !important;
+}
+
+.myPanel{
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    border-color: rgba(0,102,106,0.66);
+}
+
+.navImg{
+    height: 30px;
+    width: 30px;
+    margin: -5px;
+}
+
+.span-danger{
+    color: darkred;
+}
+
+.span-success{
+    color: darkgreen;
+}
+
+.panel-table{
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15) !important;
+    border-color: rgba(0,102,106,0.66) !important;
+    max-height: 90vh;
+    overflow:auto;
+}
+
+th{
+    background-color: rgba(0,102,106,0.66) !important;
+    color: white;
+    text-align: center;
+}
+
+.table-img{
+    height: 3vh;
+    width: 3vh;
+}
+
+.table-cell{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify !important;
+}
+
+.remove-icon{
+    text-decoration: none !important;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+.myProgressBar{
+    height: 2vh;
+    width: 50%;
+}
+
+.myProgressVal{
+    font-size: x-small;
+}
+
+.myContainer{
+    padding-top: 13vh;
+    min-height: 93vh;
+}
+
+.pagination {
+    display: inline-block !important;
+}
+
+.pagination a {
+    color: black !important;
+    float: left !important;
+    padding: 5px 14px !important;
+    text-decoration: none !important;
+    border: 1px solid #ddd !important;
+}
+
+.pagination a.active {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: 1px solid #4CAF50 !important;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd !important;}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.table-a{
+    text-decoration: none !important;
+}
